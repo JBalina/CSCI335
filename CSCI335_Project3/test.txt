@@ -1,0 +1,16 @@
+comlete	compete	complete	
+patel	pates	pater	pated	pastel	paten	panel	pate	
+s	vs	st	sp	so	us	sn	si	sh	sd	sc	os	sa	cs	as	a	ms	sr	es	se	is	
+deciasion	decision	
+online	
+patel	pates	pater	pated	pastel	paten	panel	pate	
+s	vs	st	sp	so	us	sn	si	sh	sd	sc	os	sa	cs	as	a	ms	sr	es	se	is	
+interpreation	interpretation	
+lwa	la	wa	law	lea	
+
+The way I parsed through the chec file, "Patel's" became the words "patel" and "s". This can be easily fixed by letting the parser accept the "'" symbol, but I wasn't sure if that was the desired outcome or not. 
+
+
+
+Duration for unordered_set was 142 milliseconds
+Duration for set was 121 milliseconds

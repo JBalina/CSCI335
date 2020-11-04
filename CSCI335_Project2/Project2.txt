@@ -1,0 +1,24 @@
+Jonathan Balina
+CSCI 335
+Shostak
+Project 2
+
+N	1000	100000	1000000
+BST	0	52	1464
+AVL	0	109	2505
+
+
+These were not the results I had expected because for some reason the BST was consistently faster than the AVL, which should not be the case.
+Because of these unexpected results I also attempted it in a worst case scenario and adding the numbers 1 - 10000 in order.
+
+Worst Case Test
+N	10000
+BST	748
+AVL	5
+
+This gave me results that I was much more comfortable with. Because of this I came to the conclusion that because i entered completely random numbers into the containers,
+the BST most likely ended up being roughly balanced anyways, so it resulted in the BST being faster because the insert and remove functions of both trees are very similar
+but the AVL tree variants of the functions have more operations due to the need of balancing after every use. Even with the random numbers, you can observe that eventually,
+if the containers continue to increase in size, the AVL will eventually be faster.
+
+Also tested the Height(), Size(), and Print() functions which appear to work correctly.
